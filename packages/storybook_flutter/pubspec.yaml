@@ -3,13 +3,18 @@ description: A storybook for Flutter widgets. Live preview of isolated widgets
   for faster development and showcase.
 version: 0.14.1
 homepage: https://github.com/ookami-kb/storybook_flutter
+publish_to: none
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   collection: ^1.15.0
-  device_frame: ^1.3.0
+  device_frame:
+    git:
+      url: https://github.com/aloisdeniel/flutter_device_preview
+      path: device_frame
+      ref: 6d01e554963e03d0945d481876237c49d44b51ac
   flutter:
     sdk: flutter
   nested: ^1.0.0
