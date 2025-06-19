@@ -12,9 +12,9 @@ dependencies:
   collection: ^1.15.0
   device_frame:
     git:
-      url: https://github.com/aloisdeniel/flutter_device_preview
+      url: https://github.com/apegroup/flutter_device_preview
       path: device_frame
-      ref: 6d01e554963e03d0945d481876237c49d44b51ac
+      ref: master
   flutter:
     sdk: flutter
   nested: ^1.0.0
